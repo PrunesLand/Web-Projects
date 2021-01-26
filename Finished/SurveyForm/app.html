@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1 id="title">Survey form</h1>
+            <p id="description">Thanks for helping us improve our services</p>
+        </header>
+        <Section>
+            <form action="" id="survey-form">
+                <div>
+                    <label id="name-label" for="name">Name</label>
+                    <input type="text" id="name" required name="name" placeholder="Enter Name">
+                </div>
+                <div>
+                    <label for="email" id="email-label">Email</label>
+                    <input type="email" required id="email" name="email" placeholder="Enter Email">
+                </div>
+                <div>
+                    <label for="number" id="number-label">Number</label>
+                    <input type="number" id="number" name="label" max="10" min="0" placeholder="Enter Number"> 
+                </div>
+                <div>
+                    <Label for="dropdown" >Select one option</Label>
+                    <select name="dropdown" id="dropdown">
+                        <option value="val1">Cats</option>
+                        <option value="val2">Dogs</option>
+                        <option value="val3">Birds</option>
+                        <option value="val4">Fish</option>
+                    </select>
+                </div>
+                <div id="radios">
+                    <p>Select one</p>
+                    <label for="radio">
+                        <input type="radio" name="radio" id="radio" value="opt1">
+                        opt1
+                    </label>
+                    <label for="radio">
+                        <input type="radio" name="radio" id="radio" value="opt2">
+                        opt2
+                    </label>
+                </div>
+                <div>
+                    <label for="checkbox">
+                        <input type="checkbox" name="checkbox" id="checkbox" value="1">
+                        option1
+                    </label>
+                    <label for="checkbox">
+                        <input type="checkbox" name="checkbox" id="checkbox" value="2">
+                        option2
+                    </label>
+                    <label for="checkbox">
+                        <input type="checkbox" name="checkbox" id="checkbox" value="3">
+                        option3
+                    </label>
+                    <label for="checkbox">
+                        <input type="checkbox" name="checkbox" id="checkbox" value="4">
+                        option4
+                    </label>
+                </div>
+                <div>
+                    <p id="textarea">
+                        <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="FIll here"></textarea>
+                    </p>
+                </div>
+                <div>
+                    <button type="submit" id="submit">Submit</button>
+                </div>
+            </form>
+        </Section>
+        <footer>
+
+        </footer>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </main>
+</body>
+</html>
