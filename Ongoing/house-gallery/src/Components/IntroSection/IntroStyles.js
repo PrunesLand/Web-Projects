@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const IntroSection = styled.section`
     width:100%;
     height: 100vh;
+    overflow:hidden;
     
 `
 export const InfoContainer = styled.div`
@@ -69,8 +70,12 @@ export const TitleBot = styled.div`
 export const ImageContainer = styled.div`
     width:60%;
     height:inherit;
-    background-color:green;
+    
 `
 
-export const IntroImage = styled.img``
+export const IntroImage = styled.img`
+    width:70vw;
+    height:100vh;
+    object-fit:cover;
+`
 

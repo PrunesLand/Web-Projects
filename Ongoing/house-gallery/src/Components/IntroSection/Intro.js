@@ -1,42 +1,45 @@
 import React, {useState, useEffect} from 'react'
 import {IntroSection, InfoContainer, TextContainer, TitleWrapper, TextWrapper, ImageContainer, IntroImage, TitleBot, TitleTop} from './IntroStyles'
-import {useSpring, animated} from 'react-spring'
+import Fade from 'react-reveal/Fade';
+import image from '../Images/testPhoto.jpg'
 
 const Intro = () => {
-    const [loading, setLoading] = useState(false);
+    
 
-    useEffect(() => {
-        setLoading(true);
-        setTimeout(() => {
-            setLoading(false);
-        }, 2000)
-    }, []);
+    
 
     
 
     return (
         <IntroSection>
            
-            
             <InfoContainer>
                 
                 <TextContainer>
                     <TitleWrapper>
                         <TitleTop>
-                            Wisma
+                            <Fade left delay={200}>
+                                Wisma
+                            </Fade>
                         </TitleTop>
                         <TitleBot>
-                            Gallery
+                            <Fade left delay={400}>
+                                Gallery
+                            </Fade>
                         </TitleBot>
                          
                     </TitleWrapper>
                     <TextWrapper>
-                        An insight to the amazing artworks in the home of the Consulate-General of Indonesia in Sydney.
+                        <Fade left delay={700}>
+                        An insight to the amazing artworks in the home of the Consulate General of Indonesia in Sydney.
+                        </Fade>
                     </TextWrapper>
                 </TextContainer>
 
                 <ImageContainer>
-                    <IntroImage />
+                <Fade delay={1200}>
+                    <IntroImage src={image} />
+                </Fade>
                 </ImageContainer>
             </InfoContainer>
             
