@@ -9,38 +9,43 @@ export const InfoContainer = styled.div`
     display:flex;
     flex-direction:row;
     justify-content:center;
-    height:90vh;
+    height:100vh;
 `
 // title/text section //////
 
 export const TextContainer = styled.div`
-    width:100%;
+    width:40%;
     height:inherit;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
     padding:10px;
-   
+    
     
 `
 export const TextWrapper = styled.div`
     display:flex;
     justify-content:center;
-    padding:5vw 15px;
+    padding:3vw 2vh;
     text-align:left;
     width:100%;
     height:100%;
     max-width:55vh;
-    align-items:center;
-    
+    align-items:flex-start;
+    font-size:4vw;
+
+    @media screen and (min-width:720px){
+        font-size: 4vh;
+    }
 `
 
 export const TitleWrapper = styled.div`
-    width:90%;
+    width:38vw;
     height:100%;
     display:flex;
-    justify-content:center;
+    flex-direction:column;
+    justify-content:flex-end;
     align-items:center;
    
    
@@ -48,19 +53,21 @@ export const TitleWrapper = styled.div`
 
 export const TitleTop = styled.div`
     text-align:left;
+    width:100%;
     font-size:8vw;
    
 `
 
 export const TitleBot = styled.div`
     text-align:right;
+    width:100%;
     font-size:8vw;
 `
 
 ////////////////////////////
 
 export const ImageContainer = styled.div`
-    width:100%;
+    width:60%;
     height:inherit;
     background-color:green;
 `

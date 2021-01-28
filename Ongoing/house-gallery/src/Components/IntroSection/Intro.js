@@ -1,10 +1,25 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import {IntroSection, InfoContainer, TextContainer, TitleWrapper, TextWrapper, ImageContainer, IntroImage, TitleBot, TitleTop} from './IntroStyles'
+import {useSpring, animated} from 'react-spring'
 
 const Intro = () => {
+    const [loading, setLoading] = useState(false);
+
+    useEffect(() => {
+        setLoading(true);
+        setTimeout(() => {
+            setLoading(false);
+        }, 2000)
+    }, []);
+
+    
+
     return (
         <IntroSection>
+           
+            
             <InfoContainer>
+                
                 <TextContainer>
                     <TitleWrapper>
                         <TitleTop>
@@ -24,6 +39,7 @@ const Intro = () => {
                     <IntroImage />
                 </ImageContainer>
             </InfoContainer>
+            
         </IntroSection>
     )
 }
