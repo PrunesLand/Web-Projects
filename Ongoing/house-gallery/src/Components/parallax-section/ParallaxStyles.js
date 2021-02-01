@@ -12,7 +12,7 @@ export const HeroContainer = styled.div``
 export const HeroWrapper = styled.div`
     
     height:100%;
-    padding:2vh 2vh;
+    padding:2vh 0;
 `
 
 
