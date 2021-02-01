@@ -1,5 +1,5 @@
 import React from 'react'
-import {HeroContainer, HeroSection, HeroWrapper, HeroImageWrapper, HeroImage,  HeroText, TextContainer, HeroHeader} from './ParallaxStyles'
+import {HeroContainer, HeroSection, HeroWrapper, HeroImageWrapper,   HeroText, TextContainer, HeroHeader} from './ParallaxStyles'
 
 
 const Parallax = () => {
@@ -17,7 +17,7 @@ const Parallax = () => {
                 </HeroWrapper>
                 <HeroText>
                     <TextContainer>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum mollitia impedit blanditiis voluptate soluta. Sint natus non quo praesentium, cupiditate quibusdam nam itaque tempore sequi quas nihil, voluptatibus asperiores blanditiis.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum mollitia impedit blanditiis voluptate soluta. 
                     </TextContainer>
                 </HeroText>
             </HeroContainer>

@@ -2,8 +2,8 @@ import styled from 'styled-components'
 import statue3 from '../Images/Finalized images/statue3.JPG'
 
 export const HeroSection = styled.section`
-    height:100vw;
-    max-height:100vh;
+    height:95vw;
+    max-height:80vh;
     overflow:hidden;
 `
 
@@ -12,7 +12,7 @@ export const HeroContainer = styled.div``
 export const HeroWrapper = styled.div`
     
     height:100%;
-    padding:2vh 0;
+    padding:2vh 2vh;
 `
 
 
@@ -21,27 +21,26 @@ export const HeroImageWrapper = styled.div`
     width:100%;
     height:50vw;
     max-height:60vh;
+    
+    align-items:center;
     background-size:cover;
-    background-position:center;
+    background-position:top;
     
 `
+
+
 export const HeroHeader = styled.div`
     position:absolute;
     width:100%;
     max-height:80vh;
     font-size:10vw;
     color:white;
+    padding:15px;
    
 
 `
 
-export const HeroImage = styled.img`
-    
-    width:100%;
-    max-height:80vh;
-    object-fit:contain;
-    
-`
+
 
 export const HeroText = styled.div`
     width:100%;
@@ -50,5 +49,5 @@ export const HeroText = styled.div`
 `
 
 export const TextContainer = styled.div`
-    
+    font-size:1.3rem;
 `
