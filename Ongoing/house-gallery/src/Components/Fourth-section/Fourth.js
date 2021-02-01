@@ -13,7 +13,7 @@ const Fourth = () => {
                 </TextContainer>
                 <ImageContainer>
                     <ImageText>
-                        Test
+                        Transition.
                     </ImageText>
                 </ImageContainer>
             </Container>

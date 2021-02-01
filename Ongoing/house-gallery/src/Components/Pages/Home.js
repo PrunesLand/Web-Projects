@@ -1,4 +1,5 @@
 import React from 'react'
+import Fifth from '../Fifth-section/Fifth'
 import Fourth from '../Fourth-section/Fourth'
 import Intro from '../IntroSection/Intro'
 import Parallax from '../parallax-section/Parallax'
@@ -13,6 +14,7 @@ const Home = () => {
         <Parallax />
         <Third />
         <Fourth />
+        <Fifth />
         </>
     )
 }
