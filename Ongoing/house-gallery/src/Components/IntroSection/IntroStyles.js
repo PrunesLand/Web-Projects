@@ -28,7 +28,7 @@ export const TextContainer = styled.div`
 export const TextWrapper = styled.div`
     display:flex;
     justify-content:center;
-    padding:3vw 2vh;
+    padding:5vw 2vh;
     text-align:left;
     width:100%;
     height:100%;

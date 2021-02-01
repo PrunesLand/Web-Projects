@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+
 import {IntroSection, InfoContainer, TextContainer, TitleWrapper, TextWrapper, ImageContainer, IntroImage, TitleBot, TitleTop} from './IntroStyles'
 import Fade from 'react-reveal/Fade';
 import image from '../Images/testPhoto.jpg'
