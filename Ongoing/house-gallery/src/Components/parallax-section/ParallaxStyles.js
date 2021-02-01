@@ -49,5 +49,10 @@ export const HeroText = styled.div`
 `
 
 export const TextContainer = styled.div`
-    font-size:1.3rem;
+    font-size:4.5vw;
+    padding:3vh;
+
+    @media screen and (min-width:720px){
+        font-size:1.7rem;
+    }
 `
