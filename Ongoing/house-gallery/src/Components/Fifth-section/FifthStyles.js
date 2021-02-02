@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const HeroSection = styled.section`
-    height:100vw;
+    height:100vh;
     
     overflow:hidden;
     overflow:-moz-hidden-unscrollable;

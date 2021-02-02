@@ -8,6 +8,8 @@ import Third from '../Third-section/Third'
 import {GlobalStyle} from './GlobalStyles'
 import {data1, data2, data3, data4} from '../Sixth-section/SixthData'
 import Seventh from '../Seventh-section/Seventh'
+import Tail from '../Tail-section/Tail'
+import Footer from '../Footer-Section/Footer'
 
 const Home = () => {
     return (
@@ -23,6 +25,8 @@ const Home = () => {
         <Sixth {...data3}/>
         <Sixth {...data4}/>
         <Seventh />
+        <Tail />
+        <Footer />
         </>
     )
 }

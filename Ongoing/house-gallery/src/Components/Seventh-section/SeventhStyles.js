@@ -29,7 +29,7 @@ export const MainContainer = styled.div`
 
 export const MainText = styled.div`
     text-align:center;
-    height:60vw;
+    height:55vw;
     h1{
         padding:2vh;
         font-size:8vw;

@@ -4,14 +4,12 @@ import foot from '../Images/Finalized images/statue1.JPG'
 export const Section = styled.section`
     height:80vw;
     max-height:100vh;
-    display:flex;
-    justify-content:right;
     overflow:hidden;
 `
 
 export const Container = styled.div`
     height:50vh;
-    width:90%;
+    width:100%;
     
 `
 
@@ -25,8 +23,15 @@ export const Text = styled.p`
 `
 
 export const ImageContainer = styled.div`
-    
+    display:flex;
+    justify-content:right;
+   background-color:green;
+   width:100%;
+`
+
+export const ImageWrapper = styled.div`
     background-image:url(${foot});
+    width:80%;
     height: 35vw;
     max-height:60vh;
     background-size:cover;
@@ -34,8 +39,6 @@ export const ImageContainer = styled.div`
     justify-content:flex-start;
     align-items:center;
 `
-
-export const ImageWrapper = styled.div``
 
 export const ImageText = styled.h1`
     font-size:10vw;
