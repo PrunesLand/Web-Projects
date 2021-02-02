@@ -35,6 +35,8 @@ export const ImageContainer = styled.div`
     align-items:center;
 `
 
+export const ImageWrapper = styled.div``
+
 export const ImageText = styled.h1`
     font-size:10vw;
     color:white;

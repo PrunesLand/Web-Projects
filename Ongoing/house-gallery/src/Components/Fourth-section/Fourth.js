@@ -1,5 +1,5 @@
 import React from 'react'
-import {Section, Container, TextContainer, Text, ImageContainer, ImageText} from './FourthStyles'
+import {Section, Container, TextContainer, Text, ImageContainer, ImageText, ImageWrapper} from './FourthStyles'
 
 
 const Fourth = () => {
@@ -12,9 +12,12 @@ const Fourth = () => {
                     </Text>
                 </TextContainer>
                 <ImageContainer>
-                    <ImageText>
-                        Transition.
-                    </ImageText>
+                    <ImageWrapper>
+                        <ImageText>
+                            Transition.
+                        </ImageText>
+
+                    </ImageWrapper>
                 </ImageContainer>
             </Container>
         </Section>
