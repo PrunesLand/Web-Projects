@@ -18,19 +18,27 @@ export const ImageWrapper = styled.div`
     height:100%;
     background-size:cover;
     background-repeat:no-repeat;
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
 `
 export const ImageContainer = styled.div`
+    display:flex;
     height:90vw;
     max-height:80vh;
     max-width:60vh;
     width:60vw;
     padding:1.5vh;
-    
+    order:2;
     
    
 `
 
-export const ImageText = styled.p``
+
 
 export const TextContainer = styled.div`
     width:60vw;
@@ -38,7 +46,7 @@ export const TextContainer = styled.div`
     height:60vh;
     display:flex;
     flex-direction:column;;
-    
+    order: 1;
     align-items:flex-start;
     padding:1.5vh;
     

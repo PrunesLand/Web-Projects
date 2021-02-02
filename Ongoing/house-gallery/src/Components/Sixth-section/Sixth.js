@@ -1,5 +1,5 @@
 import React from 'react'
-import {Section, Container, ImageWrapper, ImageText, TextContainer, Content, ImageContainer, Header} from './SixthStyles'
+import {Section, Container, ImageWrapper, TextContainer, Content, ImageContainer, Header} from './SixthStyles'
 
 
 const Sixth = () => {
@@ -8,9 +8,7 @@ const Sixth = () => {
             <Container>
                 <ImageContainer>
                     <ImageWrapper>
-                        <ImageText>
-
-                        </ImageText>
+                        <img src='' alt='' />
                     </ImageWrapper>
                 </ImageContainer>
                 <TextContainer>
