@@ -6,6 +6,7 @@ import Parallax from '../parallax-section/Parallax'
 import Sixth from '../Sixth-section/Sixth'
 import Third from '../Third-section/Third'
 import {GlobalStyle} from './GlobalStyles'
+import {data1, data2, data3, data4} from '../Sixth-section/SixthData'
 
 const Home = () => {
     return (
@@ -16,7 +17,10 @@ const Home = () => {
         <Third />
         <Fourth />
         <Fifth />
-        <Sixth />
+        <Sixth {...data1}/>
+        <Sixth {...data2}/>
+        <Sixth {...data3}/>
+        <Sixth {...data4}/>
         </>
     )
 }

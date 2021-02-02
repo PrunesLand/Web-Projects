@@ -1,7 +1,7 @@
 import styled from 'styled-components'
-import side from '../Images/testPhoto.jpg'
 
 export const Section = styled.section`
+    padding:2vh 0;
     height:90vw;
     max-height:80vh;
     overflow:hidden;
@@ -13,11 +13,7 @@ export const Container = styled.article`
 `
 
 export const ImageWrapper = styled.div`
-    width:100%;
-    background-image: url(${side});
-    height:100%;
-    background-size:cover;
-    background-repeat:no-repeat;
+    
 
     img{
         width: 100%;
@@ -28,12 +24,12 @@ export const ImageWrapper = styled.div`
 `
 export const ImageContainer = styled.div`
     display:flex;
-    height:90vw;
-    max-height:80vh;
-    max-width:60vh;
-    width:60vw;
-    padding:1.5vh;
-    order:2;
+    height:70vw;
+    max-height:90vh;
+    max-width:80vh;
+    width:75vw;
+    padding:1vh;
+    order:${({ reverse }) => (reverse ? '1':'2')};
     
    
 `
@@ -46,7 +42,7 @@ export const TextContainer = styled.div`
     height:60vh;
     display:flex;
     flex-direction:column;;
-    order: 1;
+    order: ${({ reverse }) => (reverse ? '2':'1')};
     align-items:flex-start;
     padding:1.5vh;
     
@@ -60,7 +56,7 @@ export const TextContainer = styled.div`
 `
 
 export const Content = styled.p`
-    font-size:4vw;
+    font-size:3.5vw;
     padding:2vh 0;
 
     @media screen and (min-width:720px){

@@ -2,16 +2,16 @@ import React from 'react'
 import {Section, Container, ImageWrapper, TextContainer, Content, ImageContainer, Header} from './SixthStyles'
 
 
-const Sixth = () => {
+const Sixth = ({image, alt, reverse}) => {
     return (
         <Section>
             <Container>
                 <ImageContainer>
-                    <ImageWrapper>
-                        <img src='' alt='' />
+                    <ImageWrapper reverse={reverse}>
+                        <img src={image} alt={alt} />
                     </ImageWrapper>
                 </ImageContainer>
-                <TextContainer>
+                <TextContainer reverse={reverse}>
                     <Header>
                         Header
                     </Header>
