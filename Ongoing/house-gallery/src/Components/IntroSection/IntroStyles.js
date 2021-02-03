@@ -42,27 +42,30 @@ export const TextWrapper = styled.div`
 `
 
 export const TitleWrapper = styled.div`
+    
     width:38vw;
     height:100%;
     display:flex;
     flex-direction:column;
     justify-content:flex-end;
     align-items:center;
-   
-   
+    
+    font-weight:bold;
+    font-size:8vw;
 `
 
 export const TitleTop = styled.div`
     text-align:left;
     width:100%;
-    font-size:8vw;
+    font-size:inherit;
    
 `
 
 export const TitleBot = styled.div`
     text-align:right;
     width:100%;
-    font-size:8vw;
+    font-size:inherit;
+    padding-right:1.5vh;
 `
 
 ////////////////////////////

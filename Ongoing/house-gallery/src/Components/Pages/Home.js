@@ -10,12 +10,15 @@ import {data1, data2, data3, data4} from '../Sixth-section/SixthData'
 import Seventh from '../Seventh-section/Seventh'
 import Tail from '../Tail-section/Tail'
 import Footer from '../Footer-Section/Footer'
+import Arrow from '../Scroll-section/Arrow'
+import {Photos} from '../IntroSection/InfoData'
 
 const Home = () => {
     return (
         <>
         <GlobalStyle />
-        <Intro />
+        <Arrow />
+        <Intro {...Photos}/>
         <Parallax />
         <Third />
         <Fourth />
