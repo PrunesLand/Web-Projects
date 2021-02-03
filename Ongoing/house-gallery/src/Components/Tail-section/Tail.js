@@ -10,7 +10,7 @@ const Tail = () => {
         <Section>
             <Container>
                 <ImageContainer>
-                    <Parallax bgImage={park}>
+                    <Parallax bgImage={park} strength={150}>
                         
                         <HeroText>
                             Park

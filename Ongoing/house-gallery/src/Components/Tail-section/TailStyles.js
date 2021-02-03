@@ -2,17 +2,19 @@ import styled from 'styled-components'
 
 
 export const Section = styled.section`
-    height:100vh;
-    padding:2vh 0;
+    height:240vw;
+    max-height:420vh;
+    padding-top:60vw;
     overflow:hidden;
     overflow:-moz-hidden-unscrollable;
 `
 
-export const Container = styled.div``
+export const Container = styled.div`
+    
+`
 
 export const ImageContainer = styled.div`
-    height:60vw;
-    width:100%;
+    
     
 `
 
@@ -29,15 +31,32 @@ export const HeroText = styled.div`
   z-index:2;
 `
 
-export const TextWrapper = styled.div``
+export const TextWrapper = styled.div`
+    padding:5vw;
+    text-align:center;
+
+    h1{
+        padding:2vw;
+    }
+
+    p{
+        padding:0 5vw;
+
+    }
+`
 
 export const Content = styled.div``
 
 export const FooterContainer = styled.div`
-    width:60vw;
+    width:100%;
+    
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    padding:2vh;
 `
 
 export const FooterImage = styled.img`
-    width:100%;
-    height:100%;
+    width:65vw;
+    
 `
