@@ -9,7 +9,7 @@ const Footer = () => {
             <FooterContainer>
                 <h2>"Thanks for sticking this far!"</h2>
                 <h2>- PrunesLand</h2>
-                <h3>This site was made by PrunesLand</h3>
+                <h3>This site was made with ReactJS.</h3>
                 <ul>
                     <AiOutlineGithub/>
                     <AiOutlineLinkedin />
