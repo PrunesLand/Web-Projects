@@ -5,6 +5,7 @@ export const Section = styled.section`
     height:90vw;
     max-height:80vh;
     overflow:hidden;
+    
 `
 
 export const Container = styled.article`
@@ -23,7 +24,7 @@ export const ImageContainer = styled.div`
     height:90vw;
     max-height:80vh;
     max-width:60vh;
-    width:60vw;
+    width:50vw;
     padding:1.5vh;
     
     

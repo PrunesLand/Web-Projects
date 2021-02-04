@@ -3,7 +3,7 @@ import foot from '../Images/Finalized images/statue1.JPG'
 
 export const Section = styled.section`
     height:80vw;
-    max-height:100vh;
+    max-height:110vh;
     overflow:hidden;
 `
 
@@ -25,7 +25,7 @@ export const Text = styled.p`
 export const ImageContainer = styled.div`
     display:flex;
     justify-content:right;
-   background-color:green;
+   background-color:#792d21;
    width:100%;
 `
 

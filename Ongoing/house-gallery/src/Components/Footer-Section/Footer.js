@@ -1,27 +1,20 @@
 import React from 'react'
-import {FooterSection, FooterContainer, RightColumn, LeftColumn, ProfileImage} from './FooterStyles'
-import image from '../Images/testPhoto.jpg'
+import {FooterSection, FooterContainer} from './FooterStyles'
+
 import { AiOutlineGithub,AiOutlineLinkedin } from "react-icons/ai";
 
 const Footer = () => {
     return (
         <FooterSection>
-                <h2>Made with ReactJS</h2>
             <FooterContainer>
-                <RightColumn>
-                    <ProfileImage src ={image}/>
-                </RightColumn>
-                <LeftColumn>
-                    <p>
-                        This site was made by PrunesLand<br/><br/>
-                        Reach out to me at:
-                    </p>
-                    <ul>
-                        <AiOutlineGithub />
-                        <AiOutlineLinkedin />
-                        
-                    </ul>
-                </LeftColumn>
+                <h2>"Thanks for sticking this far!"</h2>
+                <h2>- PrunesLand</h2>
+                <h3>This site was made by PrunesLand</h3>
+                <ul>
+                    <AiOutlineGithub/>
+                    <AiOutlineLinkedin />
+                </ul>
+                
             </FooterContainer>
         </FooterSection>
     )

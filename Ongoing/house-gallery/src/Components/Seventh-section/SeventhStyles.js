@@ -2,8 +2,8 @@ import styled from 'styled-components'
 import foot from '../Images/Finalized images/woodWork1.JPG'
 
 export const Section = styled.section`
-    height:100vw;
-    max-height:100vw;
+    height:120vw;
+    max-height:120vw;
     padding-bottom:30vw;
 `
 
@@ -19,7 +19,9 @@ export const IntroText = styled.h1`
     font-size:13vw;
 `
 
-export const MainHero = styled.div``
+export const MainHero = styled.div`
+    height:120vw;
+`
 
 export const MainContainer = styled.div`
     
@@ -47,7 +49,7 @@ export const MainText = styled.div`
 export const FooterHero = styled.div`
     
     width:100%;
-    background-color:brown;
+    background-color:#9a501e;
 `
 
 export const FooterContainer = styled.div`

@@ -1,41 +1,37 @@
 import styled from 'styled-components'
 
 export const FooterSection = styled.footer`
-    height:35vh;
-    background-color:grey;
-    text-align:center;
+    height:25vh;
     
-    h2{
-        text-align:center;
-        padding:2vh;
-        
-    }
+    text-align:center;
+
+    
 `
 
 export const FooterContainer = styled.div`
-    display:flex;
-    justify-content:space-around;
     
-`
 
-export const RightColumn = styled.div``
-
-export const LeftColumn = styled.div`
-    
-    p{
+    h2{
         text-align:center;
-        padding:2vh;
+        
+        
     }
-
+    h3{
+        padding:2vh;
+        font-size:4vw;
+    }
     ul{
+        padding:2vh;
         display: flex;
         flex-direction:row;
-        justify-content:space-around;
+        justify-content:space-evenly;
+        font-size:3rem;
     }
-`
+    
 
-export const ProfileImage = styled.img`
-    height:20vh;
-    border-radius:50%;
     
 `
+
+  
+
+

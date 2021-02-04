@@ -1,6 +1,6 @@
 import React from 'react'
 import {HeroContainer, HeroSection, HeroWrapper, HeroImageWrapper,   HeroText, TextContainer, HeroHeader} from './ParallaxStyles'
-
+import Fade from 'react-reveal/Fade';
 
 const Parallax = () => {
     return (
@@ -9,7 +9,9 @@ const Parallax = () => {
                 <HeroWrapper>
                     <HeroImageWrapper>
                         <HeroHeader>
-                            Yard
+                            <Fade left fraction={0.4}>
+                                Entrance.
+                            </Fade>
                         </HeroHeader>
                         
                         
@@ -17,7 +19,9 @@ const Parallax = () => {
                 </HeroWrapper>
                 <HeroText>
                     <TextContainer>
+                        <Fade bottom fraction={0.4}>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum mollitia impedit blanditiis voluptate soluta. 
+                        </Fade>
                     </TextContainer>
                 </HeroText>
             </HeroContainer>

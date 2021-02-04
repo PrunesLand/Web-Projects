@@ -5,6 +5,7 @@ export const IntroSection = styled.section`
     height: 100vh;
     overflow:hidden;
     
+    
 `
 export const InfoContainer = styled.div`
     display:flex;
