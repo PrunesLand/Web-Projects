@@ -3,7 +3,7 @@ import foot from '../Images/Finalized images/woodWork1.JPG'
 import {AiOutlineInfoCircle} from 'react-icons/ai'
 
 export const Section = styled.section`
-    height:195vw;
+    height:200vw;
     max-height:320vh;
     overflow:hidden;
     

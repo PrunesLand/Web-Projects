@@ -42,7 +42,7 @@ export const ImageWrapper = styled.div`
     background-position:top;
     width:100%;
     height: 25vw;
-    max-height:60vh;
+    max-height:43vh;
     background-size:cover;
     display:flex;
     
@@ -54,6 +54,8 @@ export const ImageText = styled.h1`
     color:white;
     padding:1vh;
     text-align:left;
+
+    
 `
 
 export const InfoLogo = styled(AiOutlineInfoCircle)`
