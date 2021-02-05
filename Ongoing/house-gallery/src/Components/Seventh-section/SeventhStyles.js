@@ -3,8 +3,8 @@ import foot from '../Images/Finalized images/woodWork1.JPG'
 import {AiOutlineInfoCircle} from 'react-icons/ai'
 
 export const Section = styled.section`
-    height:155vw;
-    max-height:300vh;
+    height:195vw;
+    max-height:320vh;
     overflow:hidden;
     
     
@@ -23,7 +23,7 @@ export const IntroText = styled.h1`
 `
 
 export const MainHero = styled.div`
-    height:100vw;
+    height:148vw;
 `
 
 export const MainContainer = styled.div`
@@ -45,11 +45,13 @@ export const MainText = styled.div`
 
     p{
         margin:0 9vw;
-        font-size:2.5vw;
+        font-size:4vw;
+        
     }
 `
 
 export const ImageContainer = styled.div`
+    
     display:flex;
     justify-content:space-around;
     align-items:center;
@@ -81,6 +83,7 @@ export const InfoLogo = styled(AiOutlineInfoCircle)`
     font-size:20vw;
     color:white;
     padding:0 2vh;
+    cursor:pointer; 
 
     &:hover{
         color:#ffb4a2;

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import {AiOutlineGithub,AiOutlineLinkedin} from 'react-icons/ai'
 
 export const FooterSection = styled.footer`
-    height:35vh;
+    height:40vh;
     
     text-align:center;
 

@@ -5,8 +5,8 @@ import {AiOutlineInfoCircle} from 'react-icons/ai'
 
 
 export const Section = styled.section`
-    height:90vw;
-    max-height:90vh;
+    height:70vw;
+    max-height:80vh;
     overflow:hidden;
 `
 
@@ -18,12 +18,12 @@ export const Container = styled.div`
 
 export const TextContainer = styled.div`
     width:100%;
-    padding:5vh;
+    
 `
 
 export const Text = styled.p`
     font-size:4vw;
-    padding:1vh 8vw;
+    padding:5vh 8vw;
     @media screen and (min-width:720px){
         font-size:4vh;
     }

@@ -38,7 +38,7 @@ const Seventh = () => {
                 <ImageContainer>
                     <ImageWrapper>
                         <ImageText>
-                            <Fade right fraction={0.4}>
+                            <Fade left fraction={0.4}>
                             More Information.
 
                             </Fade>

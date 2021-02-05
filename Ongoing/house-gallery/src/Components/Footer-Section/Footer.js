@@ -1,5 +1,6 @@
 import React from 'react'
 import {FooterSection, FooterContainer,GithubLogo, LinkedInLogo} from './FooterStyles'
+import Arrow from '../Scroll-section/Arrow'
 
 const Footer = () => {
     return (
@@ -12,6 +13,7 @@ const Footer = () => {
                     <GithubLogo />
                     <LinkedInLogo />
                 </ul>
+                <Arrow />
                 
             </FooterContainer>
         </FooterSection>
