@@ -1,6 +1,7 @@
 import React from 'react'
-import {Section, Container, TextContainer, Text, ImageContainer, ImageText, ImageWrapper} from './FourthStyles'
+import {Section, Container, TextContainer, Text, ImageContainer, ImageText, ImageWrapper,InfoLogo} from './FourthStyles'
 import Fade from 'react-reveal/Fade';
+
 
 const Fourth = () => {
     return (
@@ -15,10 +16,11 @@ const Fourth = () => {
                     </Text>
                 </TextContainer>
                 <ImageContainer>
+                    <InfoLogo />
                     <ImageWrapper>
                         <ImageText>
                             <Fade right fraction={0.4}>
-                            Transition.
+                            More Information.
 
                             </Fade>
                         </ImageText>

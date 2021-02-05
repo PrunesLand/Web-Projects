@@ -3,7 +3,7 @@ import statue3 from '../Images/Finalized images/statue3.JPG'
 
 export const HeroSection = styled.section`
     height:95vw;
-    max-height:80vh;
+    max-height:90vh;
     overflow:hidden;
     
 
@@ -55,9 +55,10 @@ export const HeroText = styled.div`
 
 export const TextContainer = styled.div`
     font-size:4.5vw;
-    padding:3vh;
+    padding:2vh;
+    font-size:5vw;
 
     @media screen and (min-width:720px){
-        font-size:1.7rem;
+        font-size:5vh
     }
 `

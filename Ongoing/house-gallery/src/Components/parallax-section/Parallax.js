@@ -20,7 +20,7 @@ const Parallax = () => {
                 <HeroText>
                     <TextContainer>
                         <Fade bottom fraction={0.4}>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum mollitia impedit blanditiis voluptate soluta. 
+                        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum mollitia impedit blanditiis voluptate soluta." 
                         </Fade>
                     </TextContainer>
                 </HeroText>

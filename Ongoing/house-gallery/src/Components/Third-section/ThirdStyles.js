@@ -58,7 +58,7 @@ export const Content = styled.p`
     padding:2vh 0;
 
     @media screen and (min-width:720px){
-        font-size:2rem;
+        font-size:5vh;
     }
 `
 

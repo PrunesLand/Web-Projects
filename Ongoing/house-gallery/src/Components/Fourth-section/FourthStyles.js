@@ -1,9 +1,10 @@
 import styled from 'styled-components'
 import foot from '../Images/Finalized images/statue1.JPG'
+import {AiOutlineInfoCircle} from 'react-icons/ai'
 
 export const Section = styled.section`
-    height:80vw;
-    max-height:110vh;
+    height:90vw;
+    max-height:90vh;
     overflow:hidden;
 `
 
@@ -20,28 +21,41 @@ export const TextContainer = styled.div`
 
 export const Text = styled.p`
     font-size:4vw;
+    padding:1vh 8vw;
+    @media screen and (min-width:720px){
+        font-size:4vh;
+    }
 `
 
 export const ImageContainer = styled.div`
     display:flex;
-    justify-content:right;
+    justify-content:space-around;
+    align-items:center;
    background-color:#792d21;
    width:100%;
 `
 
 export const ImageWrapper = styled.div`
     background-image:url(${foot});
-    width:80%;
-    height: 35vw;
+    background-position:top;
+    width:100%;
+    height: 25vw;
     max-height:60vh;
     background-size:cover;
     display:flex;
-    justify-content:flex-start;
+    
     align-items:center;
 `
 
 export const ImageText = styled.h1`
-    font-size:10vw;
+    font-size:8vw;
     color:white;
-    padding:3vh;
+    padding:1vh;
+    text-align:left;
+`
+
+export const InfoLogo = styled(AiOutlineInfoCircle)`
+    font-size:20vw;
+    color:white;
+    padding:0 2vh;
 `
