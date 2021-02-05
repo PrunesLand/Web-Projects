@@ -2,9 +2,8 @@ import styled from 'styled-components'
 
 
 export const Section = styled.section`
-    height:255vw;
+    height:200vw;
     max-height:470vh;
-    padding-top:60vw;
     overflow:hidden;
     overflow:-moz-hidden-unscrollable;
 `

@@ -8,4 +8,10 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
     }
+
+    section, footer{
+        background-color:#ffb4a2;
+    }
+
+    
 `

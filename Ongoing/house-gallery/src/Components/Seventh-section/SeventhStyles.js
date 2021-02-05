@@ -1,10 +1,13 @@
 import styled from 'styled-components'
 import foot from '../Images/Finalized images/woodWork1.JPG'
+import {AiOutlineInfoCircle} from 'react-icons/ai'
 
 export const Section = styled.section`
-    height:120vw;
-    max-height:120vw;
-    padding-bottom:30vw;
+    height:155vw;
+    max-height:300vh;
+    overflow:hidden;
+    
+    
 `
 
 export const Container = styled.div``
@@ -20,7 +23,7 @@ export const IntroText = styled.h1`
 `
 
 export const MainHero = styled.div`
-    height:120vw;
+    height:100vw;
 `
 
 export const MainContainer = styled.div`
@@ -33,33 +36,53 @@ export const MainContainer = styled.div`
 
 export const MainText = styled.div`
     text-align:center;
-    height:55vw;
-    max-height:100vh;
+    padding:2vh 0;
+    
+    
     h1{
-        padding:2vh;
         font-size:8vw;
     }
 
     p{
         margin:0 9vw;
-        font-size:3vw;
+        font-size:2.5vw;
     }
 `
 
-export const FooterHero = styled.div`
-    
-    width:100%;
-    background-color:#9a501e;
+export const ImageContainer = styled.div`
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+   background-color:#792d21;
+   width:100%;
 `
 
-export const FooterContainer = styled.div`
+export const ImageWrapper = styled.div`
     background-image:url(${foot});
-    height: 30vw;
-    max-height:60vh;
-    width:80%;
-    background-size:cover;
     background-position:center;
+    width:80%;
+    height: 20vw;
+    max-height:60vh;
+    background-size:cover;
     display:flex;
-    justify-content:flex-start;
+    
     align-items:center;
+`
+
+export const ImageText = styled.h1`
+    font-size:8vw;
+    color:white;
+    padding:1vh;
+    text-align:right;
+    width:100%;
+`
+
+export const InfoLogo = styled(AiOutlineInfoCircle)`
+    font-size:20vw;
+    color:white;
+    padding:0 2vh;
+
+    &:hover{
+        color:#ffb4a2;
+    }
 `

@@ -5,7 +5,7 @@ import styled from 'styled-components'
 const Container = styled.div`
     bottom:0.2vh;
     cursor: pointer;
-    left:25vh;
+    left:43vw;
     position:fixed;
     text-align:center;
     z-index:999;

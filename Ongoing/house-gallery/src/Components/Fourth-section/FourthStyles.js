@@ -2,6 +2,8 @@ import styled from 'styled-components'
 import foot from '../Images/Finalized images/statue1.JPG'
 import {AiOutlineInfoCircle} from 'react-icons/ai'
 
+
+
 export const Section = styled.section`
     height:90vw;
     max-height:90vh;
@@ -58,4 +60,9 @@ export const InfoLogo = styled(AiOutlineInfoCircle)`
     font-size:20vw;
     color:white;
     padding:0 2vh;
+
+    &:hover{
+        color:#ffb4a2;
+    }
 `
+

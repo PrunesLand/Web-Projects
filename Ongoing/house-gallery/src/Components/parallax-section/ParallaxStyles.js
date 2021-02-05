@@ -14,7 +14,7 @@ export const HeroContainer = styled.div``
 export const HeroWrapper = styled.div`
     
     height:100%;
-    padding:2vh 0;
+    
 `
 
 
@@ -48,7 +48,7 @@ export const HeroHeader = styled.div`
 
 export const HeroText = styled.div`
     width:100%;
-    padding:0 10vw;
+    padding:3vh 10vw;
     height:30vh;
     text-align:center;
 `
@@ -57,6 +57,7 @@ export const TextContainer = styled.div`
     font-size:4.5vw;
     padding:2vh;
     font-size:5vw;
+    
 
     @media screen and (min-width:720px){
         font-size:5vh

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Parallax } from 'react-parallax'
-import {Section, Container, IntroContainer, IntroText, MainHero, MainContainer, MainText, FooterHero, FooterContainer} from './SeventhStyles'
+import {Section, Container, IntroContainer, IntroText, MainHero, MainContainer, MainText, InfoLogo, ImageText, ImageWrapper,ImageContainer} from './SeventhStyles'
 import main from '../Images/Finalized images/woodWork2.JPG'
 import Fade from 'react-reveal/Fade';
 
@@ -35,12 +35,18 @@ const Seventh = () => {
                     </MainText>
 
                 </MainHero>
-                <FooterHero>
-                    <FooterContainer>
+                <ImageContainer>
+                    <ImageWrapper>
+                        <ImageText>
+                            <Fade right fraction={0.4}>
+                            More Information.
 
-                    </FooterContainer>
+                            </Fade>
+                        </ImageText>
 
-                </FooterHero>
+                    </ImageWrapper>
+                    <InfoLogo />
+                </ImageContainer>
             </Container>
         </Section>
     )

@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import {AiOutlineGithub,AiOutlineLinkedin} from 'react-icons/ai'
 
 export const FooterSection = styled.footer`
     height:35vh;
@@ -31,7 +32,19 @@ export const FooterContainer = styled.div`
 
     
 `
+export const GithubLogo = styled(AiOutlineGithub)`
+    &:hover{
+        color:white;
+        cursor: pointer;
+    }
+`
 
+export const LinkedInLogo = styled(AiOutlineLinkedin)`
+    &:hover{
+        color:#023e8a;
+        cursor: pointer;
+    }
+`
   
 
 

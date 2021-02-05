@@ -1,7 +1,5 @@
 import React from 'react'
-import {FooterSection, FooterContainer} from './FooterStyles'
-
-import { AiOutlineGithub,AiOutlineLinkedin } from "react-icons/ai";
+import {FooterSection, FooterContainer,GithubLogo, LinkedInLogo} from './FooterStyles'
 
 const Footer = () => {
     return (
@@ -11,8 +9,8 @@ const Footer = () => {
                 <h2>- PrunesLand</h2>
                 <h3>This site was made with ReactJS.</h3>
                 <ul>
-                    <AiOutlineGithub/>
-                    <AiOutlineLinkedin />
+                    <GithubLogo />
+                    <LinkedInLogo />
                 </ul>
                 
             </FooterContainer>
