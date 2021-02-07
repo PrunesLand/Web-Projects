@@ -7,12 +7,12 @@ const Sixth = ({image, alt, reverse}) => {
         <Section>
             <Container>
                 <ImageContainer>
-                    <ImageWrapper reverse={reverse}>
                         <Fade top fraction={0.4}>
-
+                    <ImageWrapper reverse={reverse}>
+                        
                         <img src={image} alt={alt} />
-                        </Fade>
                     </ImageWrapper>
+                        </Fade>
                 </ImageContainer>
                 <TextContainer reverse={reverse}>
                     <Header>

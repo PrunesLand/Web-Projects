@@ -9,12 +9,17 @@ export const Section = styled.section`
 
 export const Container = styled.article`
     display:flex;
-    justify-content:space-around;
+    justify-content:center;
 `
 
 export const ImageWrapper = styled.div`
     
-
+    width:45vw;
+    
+    @media screen and (min-width:720px){
+        width:70vh
+    }
+    
     img{
         width: 100%;
         height: 100%;
