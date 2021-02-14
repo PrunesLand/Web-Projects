@@ -25,20 +25,30 @@ function App() {
 
   
   const add = () => {
-    resetCount()
+    
     changeImg()
-    setCounter(counter + 1)
+    if(counter < photos.length-1){
+
+      setCounter(counter + 1)
+    }else{
+      setCounter(0)
+    }
+    
     console.log(counter)
+  }
+  const handleCLick = () => {
+    add()
   }
 
  
 
-  const subt = () => {
-   setCounter(counter - 1)
+  // const subt = () => {
+  //  setCounter(counter - 1)
     
-  }
+  // }
 
   const changeImg = () => {
+    
    switch (counter){
       case 0:
         setCatcher(photos[1].photo)
@@ -46,19 +56,37 @@ function App() {
       case 1:
         setCatcher(photos[2].photo)
         break;
-      case 3:
+      case 2:
         
         setCatcher(photos[0].photo)
         break;
     }
   }
-
-  const resetCount = () => {
-    if(counter > 3){
-
-      setCounter(0)
+  
+  
+  useEffect(() => {
+    const timer = setInterval(add, 2000)
+    
+    return () => {
+      clearInterval(timer)
     }
-  }
+  }, [counter]) // eslint-disable-line react-hooks/exhaustive-deps
+  const [[windowWidth, windowHeight], setWindowSize] = useState([
+		window.innerWidth,
+		window.innerHeight,
+	]);
+  const [visible, setVisible] = useState(false);
+useEffect(() => {
+	const handleResize = () => {
+		setWindowSize([window.innerWidth, window.innerHeight]);
+		setVisible(true);
+		setTimeout(() => setVisible(false), 1000);
+	};
+	window.addEventListener("resize", handleResize);
+	return () => window.removeEventListener("resize", handleResize);
+}, []);
+
+ 
   
 
   
@@ -67,8 +95,13 @@ function App() {
     <section >
       <h2>{counter}</h2>
       {/* <button onClick={subt}>subtract</button> */}
-      <button onClick={add}>change</button>
+      <button onClick={handleCLick}>change</button>
       <img src={catcher} alt='test' style={{height: '200px', objectFit: "cover"}}/>
+      <div style={{display: visible? 'block': 'none'}}>
+
+      {windowWidth} {windowHeight}
+      </div>
+      
     </section>
   );
 }
