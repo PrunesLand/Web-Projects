@@ -36,16 +36,27 @@ function App() {
     
     console.log(counter)
   }
-  const handleCLick = () => {
+  const handleCLickAdd = () => {
     add()
   }
 
+  const handleCLickSub = () => {
+    subt()
+  }
  
 
-  // const subt = () => {
-  //  setCounter(counter - 1)
+  const subt = () => {
+    changeImg()
+    if(counter > 0){
+
+      setCounter(counter - 1)
+    }else{
+      setCounter(2)
+    }
     
-  // }
+    console.log(counter)
+    
+  }
 
   const changeImg = () => {
     
@@ -71,11 +82,14 @@ function App() {
       clearInterval(timer)
     }
   }, [counter]) // eslint-disable-line react-hooks/exhaustive-deps
+
   const [[windowWidth, windowHeight], setWindowSize] = useState([
 		window.innerWidth,
 		window.innerHeight,
 	]);
+
   const [visible, setVisible] = useState(false);
+
 useEffect(() => {
 	const handleResize = () => {
 		setWindowSize([window.innerWidth, window.innerHeight]);
@@ -86,16 +100,11 @@ useEffect(() => {
 	return () => window.removeEventListener("resize", handleResize);
 }, []);
 
- 
-  
-
-  
-
   return (
     <section >
       <h2>{counter}</h2>
-      {/* <button onClick={subt}>subtract</button> */}
-      <button onClick={handleCLick}>change</button>
+      <button onClick={handleCLickSub}>Backward</button>
+      <button onClick={handleCLickAdd}>Forward</button>
       <img src={catcher} alt='test' style={{height: '200px', objectFit: "cover"}}/>
       <div style={{display: visible? 'block': 'none'}}>
 
